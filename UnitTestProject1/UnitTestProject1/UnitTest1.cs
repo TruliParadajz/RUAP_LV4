@@ -47,9 +47,9 @@ namespace SeleniumTests
             driver.FindElement(By.LinkText("Login")).Click();
             driver.FindElement(By.Id("input-email")).Click();
             driver.FindElement(By.Id("input-email")).Clear();
-            driver.FindElement(By.Id("input-email")).SendKeys("mario.tomic00@gmail.com");
+            driver.FindElement(By.Id("input-email")).SendKeys("testtester@gmail.com");
             driver.FindElement(By.Id("input-password")).Clear();
-            driver.FindElement(By.Id("input-password")).SendKeys("Dotkor");
+            driver.FindElement(By.Id("input-password")).SendKeys("testpass123");
             driver.FindElement(By.XPath("//input[@value='Login']")).Click();
         }
         private bool IsElementPresent(By by)
